@@ -1,0 +1,73 @@
+2022-10-05 19:03:07,493 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:03:19,942 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:03:30,709 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:03:38,154 INFO  [Log] goToBasket() is Successfull! 
+2022-10-05 19:04:09,208 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:04:20,009 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:04:32,588 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:04:40,091 INFO  [Log] goToBasket() is Successfull! 
+2022-10-05 19:33:54,470 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:34:05,801 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:34:24,779 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:34:32,447 INFO  [Log] goToBasket() is Successfull! 
+2022-10-05 19:35:06,186 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:35:19,286 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:35:22,022 ERROR [Log] addClotheToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.advanced-price"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ca5f535c2f722d004aeb8334087dc2e, findElement {using=css selector, value=span.advanced-price}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52993/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ca5f535c2f722d004aeb8334087dc2e 
+2022-10-05 19:35:22,058 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ca5f535c2f722d004aeb8334087dc2e, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52993}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52993/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ca5f535c2f722d004aeb8334087dc2e 
+2022-10-05 19:36:45,156 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:37:03,803 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:37:19,291 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:37:26,750 INFO  [Log] goToBasket() is Successfull! 
+2022-10-05 19:38:06,580 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:38:17,844 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:38:31,604 ERROR [Log] addClotheToBasket() is Fail! --- Expected condition failed: waiting for visibility of element located by By.linkText: Sepete Git (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53416/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7783b8c7724ee69b35130e02a85d6d35 
+2022-10-05 19:38:31,639 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7783b8c7724ee69b35130e02a85d6d35, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53416/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7783b8c7724ee69b35130e02a85d6d35 
+2022-10-05 19:39:43,434 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:39:57,838 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:40:08,458 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:40:15,890 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"a.homepage-link.mt-20"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7d8aa4736cee9ad21d6f61a96f821e9, findElement {using=css selector, value=a.homepage-link.mt-20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53640/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7d8aa4736cee9ad21d6f61a96f821e9 
+2022-10-05 19:40:48,051 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:41:05,233 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:41:19,342 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:41:26,778 INFO  [Log] goToBasket() is Successfull! 
+2022-10-05 19:46:30,067 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-05 19:47:01,111 INFO  [Log] selectClothe() is Successfull! 
+2022-10-05 19:47:12,516 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-05 19:47:20,222 INFO  [Log] goToBasket() is Successfull! 
