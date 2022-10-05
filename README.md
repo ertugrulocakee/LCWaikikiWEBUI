@@ -24,5 +24,6 @@ Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bi
 
  Çalışmanın Videosu 
 
- Uploading bandicam 2022-10-05 20-36-30-524.mp4…
+
+https://user-images.githubusercontent.com/83928393/194127937-a11b5ced-8d94-415f-b1f7-b6784eda93c3.mp4
 
