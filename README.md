@@ -2,6 +2,8 @@
 
 Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bir WEB UI Otomasyonu oluşturulmuştur. OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir. WebDriver olarak ChromeDriver kullanılmaktadır.
 
+  Not => Yakın zamanda bu repo güncelleme alabilir!
+
 - https://www.lcwaikiki.com/tr-TR/TR sitesi açılır.
 - Ana sayfanın açıldığı kontrol edilir. Siteye login olunur
 - Login işlemi kontrol edilir.
