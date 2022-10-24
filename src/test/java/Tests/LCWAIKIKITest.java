@@ -29,10 +29,6 @@ public class LCWAIKIKITest extends  BaseTest {
 
         homePage.isOnHomePage();
 
-        homePage.login();
-
-        homePage.isOnHomePage();
-
         homePage.getSearchBox().search();
 
     }

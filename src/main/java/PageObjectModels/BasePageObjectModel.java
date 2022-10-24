@@ -8,7 +8,7 @@ import java.util.List;
 
 public class BasePageObjectModel {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     public BasePageObjectModel(WebDriver webDriver) {
 

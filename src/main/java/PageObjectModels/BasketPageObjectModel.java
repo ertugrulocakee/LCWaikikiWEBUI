@@ -25,15 +25,17 @@ public class BasketPageObjectModel extends  BasePageObjectModel{
     public void areSamePrices(){
 
         String basketPrice = findElement(basketPriceLabel).getText();
-        System.out.println(basketPrice);
+
 
         if(basketPrice.equals(price)){
 
             System.out.println("The prices are same!");
 
-        }
+        }else {
 
-        System.out.println("The prices are not same !");
+            System.out.println("The prices are not same !");
+
+        }
 
     }
 
@@ -42,14 +44,13 @@ public class BasketPageObjectModel extends  BasePageObjectModel{
 
          select(increaseButton);
 
-         averageStop();
+         longStop();
 
     }
 
     public boolean areThereTwoClothes(){
 
          int value =  Integer.valueOf(findElement(numberOfTheClotheLabel).getAttribute("value"));
-         System.out.println(value);
 
          if(value == 2){
 

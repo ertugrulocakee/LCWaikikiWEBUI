@@ -8,12 +8,6 @@ public class HomePageObjectModel extends  BasePageObjectModel{
 
     private  By acceptCookieButton = By.xpath("/html/body/div[1]/div/button[2]");
     private  By logo = new By.ByCssSelector("a.main-header-logo");
-    private  By loginButton = new By.ByCssSelector("a.header-dropdown-toggle");
-
-    private  By emailInput = By.xpath("/html/body/div[2]/div/div[2]/div/div/div/div/form/div[2]/input");
-
-    private  By passwordInput = By.xpath("/html/body/div[2]/div/div[2]/div/div/div/div/form/div[3]/div/input");
-
 
     private  SearchBox searchBox;
 
@@ -24,7 +18,6 @@ public class HomePageObjectModel extends  BasePageObjectModel{
 
     }
 
-
     public  void acceptCookies(){
 
         longStop();
@@ -33,22 +26,15 @@ public class HomePageObjectModel extends  BasePageObjectModel{
 
     }
 
+
+
     public  boolean isOnHomePage(){
 
         return isDisplayed(logo);
 
     }
 
-    public  void login(){
 
-        select(loginButton);
-        averageStop();
-        write(emailInput,"Write your Email!");
-        write(passwordInput,"Write your Password!");
-        enter(passwordInput);
-        averageStop();
-
-    }
 
     public  SearchBox getSearchBox(){
 

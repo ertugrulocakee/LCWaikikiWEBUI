@@ -4,10 +4,11 @@ import PageObjectModels.BasePageObjectModel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+
 public class SearchBox extends BasePageObjectModel {
 
-    private By searchBox = By.xpath("/html/body/div[2]/div/div[1]/header/div[2]/div[2]/form/div/div[1]/input");
-    private By searchButton = By.xpath("/html/body/div[2]/div/div[1]/header/div[2]/div[2]/form/div[1]/div[2]/button");
+    private By searchBox = By.id("search-form__input-field__search-input");
+    private By searchButton = new By.ByCssSelector("div.search-form__input-field.search-form__input-field--second-wrap");
 
     public SearchBox(WebDriver webDriver) {
         super(webDriver);
@@ -15,10 +16,11 @@ public class SearchBox extends BasePageObjectModel {
 
     public  void search(){
 
-        write(searchBox,"pantolon");
-        select(searchButton);
+        longStop();
 
-        averageStop();
+        write(searchBox,"pantolon");
+
+        select(searchButton);
 
     }
 

@@ -1,21 +1,13 @@
 package PageObjectModels;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.*;
 
-
-import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
 public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
 
-
-    private  By sizeOptionItem = By.xpath("/html/body/div[3]/div[1]/div[4]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div[4]/div[2]/div[2]/div/div[1]/div[3]/a");
+    private  By sizeOptionItem = By.xpath("//div[@id='option-size']/a[not(@data-stock = '0')]");
     private  By goToBasketButton = By.id("pd_add_to_cart");
 
     private  By stockAlert = By.id("evamToolTipTop");
@@ -25,7 +17,13 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
 
     private  By regularPriceLabel = new By.ByCssSelector("span.price-regular");
 
-    private  By getGoToBasketButtonInPopup = By.linkText("Sepete Git");
+    private  By priceLabel = new By.ByCssSelector("span.price");
+
+    private  By getGoToBasketButtonInPopup = By.xpath("//div[@id='cart-action']/a");
+
+    private By  heightOptionItem = By.xpath("//div[@id='option-height']/a[not(@class = 'disabled')]");
+
+    private  By findSizePopup = By.id("ExploreYourBodyBtn");
 
     private  By shareCombineButton = By.xpath("/html/body/div[3]/div/div[4]/div[1]/div[2]/div[3]/div/div[1]/div/a");
 
@@ -39,28 +37,31 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
     }
 
 
-
     private List<WebElement> getAllSizes(){
 
-       List<WebElement> list = findAllElements(sizeOptionItem);
+       return findAllElements(sizeOptionItem);
 
-       for(int i=0; i<list.size();i++){
+    }
 
-          if(list.get(i).getAttribute("class").equals("disabled")){
+    private List<WebElement> getAllHeights(){
 
-                 list.remove(i);
-
-          }
-
-       }
-
-       return  list;
+        return findAllElements(heightOptionItem);
 
     }
 
 
-    private void selectSize() {
+    private void selectHeight(){
 
+        Random r = new Random();
+        int number = r.nextInt(getAllHeights().size());
+
+        getAllHeights().get(number).click();
+
+        averageStop();
+
+    }
+
+    private void selectSize() {
 
         Random r = new Random();
         int number = r.nextInt(getAllSizes().size());
@@ -80,37 +81,69 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
 
                 price = findElement(regularPriceLabel).getText();
 
-                System.out.println(price);
             }
 
         }catch (NoSuchElementException exception){
 
-            price = findElement(advancePriceLabel).getText();
+            try{
+                price = findElement(advancePriceLabel).getText();
 
-            System.out.println(price);
+            }catch (NoSuchElementException e){
+
+                price = findElement(priceLabel).getText();
+
+            }
 
         }
+
+    }
+
+    private  void  isDisplayedSizeAlert(){
+
+        try{
+
+            if(isDisplayed(findSizePopup)){
+
+                driver.navigate().refresh();
+
+            }
+
+        }catch (NoSuchElementException exception){
+
+
+            System.out.println("There is not a findBodySize button!");
+
+
+        }
+
+    }
+
+    private  void isDisplayedStockAlert(){
+
+        try{
+
+            if(isDisplayed(stockAlert)){
+
+                driver.navigate().refresh();
+
+            }
+
+        }catch (NoSuchElementException exception){
+
+
+            System.out.println("Stock of the clothe is enough.");
+
+
+        }
+
 
     }
 
 
     public void selectClotheThenGoToBasket(){
 
-            try{
-
-                if(isDisplayed(stockAlert)){
-
-                    driver.navigate().refresh();
-
-                }
-
-            }catch (NoSuchElementException exception){
-
-
-                 System.out.println("Stock of the clothe is enough.");
-
-
-            }
+           isDisplayedStockAlert();
+           isDisplayedSizeAlert();
 
             try{
 
@@ -123,6 +156,9 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
 
                        longStop();
 
+                       isDisplayedStockAlert();
+                       isDisplayedSizeAlert();
+
                  }
 
             }catch (NoSuchElementException exception){
@@ -132,22 +168,31 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
             }
 
             selectSize();
+
+            try{
+
+                if(isDisplayed(heightOptionItem)){
+
+                    shortStop();
+
+                    selectHeight();
+
+                }
+
+
+            }catch (NoSuchElementException exception){
+
+                System.out.println("You don't need to select height!");
+
+            }
+
             averageScrollDown();
             getPrice();
             select(goToBasketButton);
             averageStop();
 
-            try{
 
-               WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-
-               wait.until(ExpectedConditions.visibilityOfElementLocated(getGoToBasketButtonInPopup)).click();
-
-            }catch(NoSuchElementException exception){
-
-                 driver.get("https://www.lcwaikiki.com/tr-TR/TR/sepetim");
-
-            }
+            driver.get("https://www.lcwaikiki.com/tr-TR/TR/sepetim");
 
             longStop();
 
