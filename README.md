@@ -3,9 +3,6 @@
 Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bir WEB UI Otomasyonu oluşturulmuştur. OOP prensiplerine ve Page Object Pattern kullanımına dikkat edilmiştir. WebDriver olarak ChromeDriver kullanılmaktadır.
 
 
-  Not => Yakın zamanda bu repo güncelleme alabilir! Otomasyon daha iyi hale getirilecek.
-  
-  
 - https://www.lcwaikiki.com/tr-TR/TR sitesi açılır.
 - Ana sayfanın açıldığı kontrol edilir.
 - Arama kutucuğuna “pantolon” kelimesi girilir.
@@ -19,7 +16,7 @@ Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bi
 
 
  Çalışmanın Videosu 
+ 
 
-
-https://user-images.githubusercontent.com/83928393/194127937-a11b5ced-8d94-415f-b1f7-b6784eda93c3.mp4
+https://user-images.githubusercontent.com/83928393/197786502-2f11780a-ef2a-48cd-a513-c0b2b76321c1.mp4
 
