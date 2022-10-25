@@ -1,7 +1,9 @@
 package PageObjectModels;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Random;
 
@@ -21,7 +23,7 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
 
     private  By getGoToBasketButtonInPopup = By.xpath("//div[@id='cart-action']/a");
 
-    private By  heightOptionItem = By.xpath("//div[@id='option-height']/a[not(@class = 'disabled')]");
+    private By  heightOptionItem = By.xpath("//div[@id='option-height']/a[not(@class = 'disabled') or not(@class = 'disabledNotSelected')]");
 
     private  By findSizePopup = By.id("ExploreYourBodyBtn");
 
@@ -55,7 +57,9 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
         Random r = new Random();
         int number = r.nextInt(getAllHeights().size());
 
-        getAllHeights().get(number).click();
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", getAllHeights().get(number));
+
 
         averageStop();
 
@@ -66,7 +70,8 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
         Random r = new Random();
         int number = r.nextInt(getAllSizes().size());
 
-        getAllSizes().get(number).click();
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();", getAllSizes().get(number));
 
         averageStop();
 
@@ -167,7 +172,7 @@ public class ClotheDetailPageObjectModel extends  BasePageObjectModel{
 
             }
 
-            selectSize();
+               selectSize();
 
             try{
 
