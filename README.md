@@ -5,13 +5,9 @@ Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bi
 
   Not => Yakın zamanda bu repo güncelleme alabilir! Otomasyon daha iyi hale getirilecek.
   
-  Not => Sisteme giriş yapmak için gerekli olan hesap bilgileri paylaşılmadı. Kendi hesap bilgilerinizi kullanarak homepageobjectmodel sınıfındaki ilgili yerleri
-  düzenleyiniz. Sonrasında otomasyonu çalıştırmayı deneyiniz! 
   
-
 - https://www.lcwaikiki.com/tr-TR/TR sitesi açılır.
-- Ana sayfanın açıldığı kontrol edilir. Siteye login olunur
-- Login işlemi kontrol edilir.
+- Ana sayfanın açıldığı kontrol edilir.
 - Arama kutucuğuna “pantolon” kelimesi girilir.
 - Sayfanın sonuna scroll edilir.
 - “Daha fazla ürün gör “ butonuna tıklanır.
