@@ -20,7 +20,7 @@ public class LoginPageObjectModel extends BasePageObjectModel {
 
     public  void  login(){
 
-        write(emailInput,"---write your email---");
+        write(emailInput,"---write your e-mail---");
         shortStop();
         write(passwordInput,"---write your password---");
         shortStop();

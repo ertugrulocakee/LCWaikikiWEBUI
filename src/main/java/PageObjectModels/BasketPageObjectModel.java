@@ -15,7 +15,7 @@ public class BasketPageObjectModel extends  BasePageObjectModel{
 
     private  By startShoppingButton = new By.ByCssSelector("a.homepage-link.mt-20");
 
-    private  By removePopup = By.xpath("//div[@class='modal-content']/child::div/following-sibling::div/following-sibling::div/div/div/a");
+    private  By removePopup = By.xpath("//div[@class='modal-content']/child::div/following-sibling::div/following-sibling::div/div/div/a[@class='inverted-modal-button sc-delete']");
 
 
     public BasketPageObjectModel(WebDriver webDriver) {

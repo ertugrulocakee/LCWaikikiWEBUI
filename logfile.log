@@ -4154,3 +4154,15 @@ Session ID: 2f785169a2e92a22e7dc4af055522080
 2022-12-03 17:02:38,580 INFO  [Log] selectClothe() is Successfull! 
 2022-12-03 17:02:49,458 INFO  [Log] addClotheToBasket() is Successfull! 
 2022-12-03 17:02:58,511 INFO  [Log] goToBasket() is Successfull! 
+2022-12-03 17:57:32,387 INFO  [Log] loginAndSearch() is Successfull! 
+2022-12-03 17:57:45,939 INFO  [Log] selectClothe() is Successfull! 
+2022-12-03 17:58:04,145 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-12-03 17:58:12,691 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"a.homepage-link.mt-20"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f57d28353189f15026eb7bf46da7daa5, findElement {using=css selector, value=a.homepage-link.mt-20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55496}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55496/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f57d28353189f15026eb7bf46da7daa5 
