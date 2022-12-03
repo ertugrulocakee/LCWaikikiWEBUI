@@ -1,21 +1,21 @@
 package Tests;
 
 import Elements.SearchBox;
-import PageObjectModels.BasketPageObjectModel;
-import PageObjectModels.ClotheDetailPageObjectModel;
-import PageObjectModels.ClothesListObjectModel;
-import PageObjectModels.HomePageObjectModel;
+import PageObjectModels.*;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
 public class LCWAIKIKITest extends  BaseTest {
 
     private HomePageObjectModel homePage;
+
     private ClothesListObjectModel clothesListPage;
 
     private ClotheDetailPageObjectModel clotheDetailPage;
 
     private BasketPageObjectModel basketPage;
+
+    private LoginPageObjectModel loginPage;
 
     @Test
     @Order(1)
@@ -25,7 +25,15 @@ public class LCWAIKIKITest extends  BaseTest {
 
         homePage = new HomePageObjectModel(driver,searchBox);
 
+        loginPage = new LoginPageObjectModel(driver);
+
         homePage.acceptCookies();
+
+        homePage.isOnHomePage();
+
+        homePage.login();
+
+        loginPage.login();
 
         homePage.isOnHomePage();
 

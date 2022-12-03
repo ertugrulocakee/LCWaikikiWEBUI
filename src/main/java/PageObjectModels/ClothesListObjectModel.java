@@ -11,7 +11,7 @@ public class ClothesListObjectModel extends BasePageObjectModel {
 
     private  By clotheItem = new By.ByCssSelector("div.product-card.product-card--one-of-4");
 
-    private  By showMoreClothesButton = By.xpath("/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button");
+    private  By showMoreClothesButton = By.xpath("//div[@class='paginator']/button[@class='paginator__button']");
 
     public ClothesListObjectModel(WebDriver webDriver) {
         super(webDriver);

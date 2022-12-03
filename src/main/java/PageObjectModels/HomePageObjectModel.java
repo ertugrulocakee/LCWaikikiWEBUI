@@ -8,6 +8,7 @@ public class HomePageObjectModel extends  BasePageObjectModel{
 
     private  By acceptCookieButton = By.xpath("/html/body/div[1]/div/button[2]");
     private  By logo = new By.ByCssSelector("a.main-header-logo");
+    private  By loginButton = By.xpath("//div[@class='header-section']/span[@class='user-wrapper']/child::div/a");
 
     private  SearchBox searchBox;
 
@@ -26,6 +27,12 @@ public class HomePageObjectModel extends  BasePageObjectModel{
 
     }
 
+
+    public  void login(){
+
+        select(loginButton);
+
+    }
 
 
     public  boolean isOnHomePage(){

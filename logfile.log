@@ -3534,3 +3534,623 @@ Session ID: 58036dcde951bc07ddd527fc89753ca5
 2022-10-25 15:46:04,124 INFO  [Log] selectClothe() is Successfull! 
 2022-10-25 15:46:17,395 INFO  [Log] addClotheToBasket() is Successfull! 
 2022-10-25 15:46:25,861 INFO  [Log] goToBasket() is Successfull! 
+2022-10-25 15:48:42,005 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-25 15:48:54,444 INFO  [Log] selectClothe() is Successfull! 
+2022-10-25 15:49:11,929 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-25 15:49:20,364 INFO  [Log] goToBasket() is Successfull! 
+2022-10-25 16:26:16,178 INFO  [Log] loginAndSearch() is Successfull! 
+2022-10-25 16:26:29,776 INFO  [Log] selectClothe() is Successfull! 
+2022-10-25 16:26:41,284 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-10-25 16:26:49,889 INFO  [Log] goToBasket() is Successfull! 
+2022-11-26 12:14:30,051 INFO  [Log] loginAndSearch() is Successfull! 
+2022-11-26 12:14:42,790 INFO  [Log] selectClothe() is Successfull! 
+2022-11-26 12:14:53,911 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-11-26 12:15:02,362 INFO  [Log] goToBasket() is Successfull! 
+2022-11-26 12:44:56,951 ERROR [Log] loginAndSearch() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='input-container']/input"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0848ef8bb4855cc94845e868f69c2e05, findElement {using=xpath, value=//div[@class='input-container']/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52525/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0848ef8bb4855cc94845e868f69c2e05 
+2022-11-26 12:44:59,029 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0848ef8bb4855cc94845e868f69c2e05, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52525/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0848ef8bb4855cc94845e868f69c2e05 
+2022-11-26 12:44:59,111 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 12:44:59,138 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0848ef8bb4855cc94845e868f69c2e05, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52525}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52525/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0848ef8bb4855cc94845e868f69c2e05 
+2022-11-26 12:46:19,540 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1657aac3cefad79d072d53157ffd9de9, clickElement {id=15f325df-ac27-4e92-8c6a-1c5a6673276a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52688/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1657aac3cefad79d072d53157ffd9de9)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 1657aac3cefad79d072d53157ffd9de9 
+2022-11-26 12:46:21,615 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1657aac3cefad79d072d53157ffd9de9, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52688/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1657aac3cefad79d072d53157ffd9de9 
+2022-11-26 12:46:21,687 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 12:46:21,704 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1657aac3cefad79d072d53157ffd9de9, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52688/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1657aac3cefad79d072d53157ffd9de9 
+2022-11-26 12:49:10,924 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b206322f518132cf6a2b1e24d09fae5, clickElement {id=138cf720-358e-4d1f-a5a4-2fcf554f4aec}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52953/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6b206322f518132cf6a2b1e24d09fae5)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 6b206322f518132cf6a2b1e24d09fae5 
+2022-11-26 12:49:12,984 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b206322f518132cf6a2b1e24d09fae5, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52953/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b206322f518132cf6a2b1e24d09fae5 
+2022-11-26 12:49:13,052 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 12:49:13,070 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b206322f518132cf6a2b1e24d09fae5, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52953}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52953/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b206322f518132cf6a2b1e24d09fae5 
+2022-11-26 12:54:04,349 INFO  [Log] loginAndSearch() is Successfull! 
+2022-11-26 12:54:17,259 INFO  [Log] selectClothe() is Successfull! 
+2022-11-26 12:54:27,968 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-11-26 12:54:36,562 INFO  [Log] goToBasket() is Successfull! 
+2022-11-26 13:20:33,229 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edb583d36e2a970c1f27bc1baf15fef3, clickElement {id=218f1af1-6fb1-4de3-844c-dc66617db96e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54220/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (edb583d36e2a970c1f27bc1baf15fef3)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: edb583d36e2a970c1f27bc1baf15fef3 
+2022-11-26 13:20:35,269 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edb583d36e2a970c1f27bc1baf15fef3, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54220/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: edb583d36e2a970c1f27bc1baf15fef3 
+2022-11-26 13:20:35,338 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 13:20:35,356 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edb583d36e2a970c1f27bc1baf15fef3, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54220}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54220/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: edb583d36e2a970c1f27bc1baf15fef3 
+2022-11-26 13:21:29,803 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.56)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [60215e346ee64f9c60f8e10342b6deae, clickElement {id=56db75df-b97c-4a6f-bb5c-0950a47ea381}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.56, ms:edgeOptions: {debuggerAddress: localhost:54372}, msedge: {msedgedriverVersion: 107.0.1418.56 (5b47a5c50066..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54372/devtoo..., se:cdpVersion: 107.0.1418.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (60215e346ee64f9c60f8e10342b6deae)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 60215e346ee64f9c60f8e10342b6deae 
+2022-11-26 13:21:31,859 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: MicrosoftEdge=107.0.1418.56)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [60215e346ee64f9c60f8e10342b6deae, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.56, ms:edgeOptions: {debuggerAddress: localhost:54372}, msedge: {msedgedriverVersion: 107.0.1418.56 (5b47a5c50066..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54372/devtoo..., se:cdpVersion: 107.0.1418.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60215e346ee64f9c60f8e10342b6deae 
+2022-11-26 13:21:31,926 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 13:21:31,947 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.56)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [60215e346ee64f9c60f8e10342b6deae, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.56, ms:edgeOptions: {debuggerAddress: localhost:54372}, msedge: {msedgedriverVersion: 107.0.1418.56 (5b47a5c50066..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54372/devtoo..., se:cdpVersion: 107.0.1418.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60215e346ee64f9c60f8e10342b6deae 
+2022-11-26 13:22:07,357 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.56)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [49734eb8fac32ea7758d3b092348dfa2, clickElement {id=a360be9c-e82a-4ee5-a70d-ef92f91687b9}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.56, ms:edgeOptions: {debuggerAddress: localhost:54528}, msedge: {msedgedriverVersion: 107.0.1418.56 (5b47a5c50066..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54528/devtoo..., se:cdpVersion: 107.0.1418.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (49734eb8fac32ea7758d3b092348dfa2)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 49734eb8fac32ea7758d3b092348dfa2 
+2022-11-26 13:22:09,393 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: MicrosoftEdge=107.0.1418.56)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [49734eb8fac32ea7758d3b092348dfa2, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.56, ms:edgeOptions: {debuggerAddress: localhost:54528}, msedge: {msedgedriverVersion: 107.0.1418.56 (5b47a5c50066..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54528/devtoo..., se:cdpVersion: 107.0.1418.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49734eb8fac32ea7758d3b092348dfa2 
+2022-11-26 13:22:09,460 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 13:22:09,478 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.56)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [49734eb8fac32ea7758d3b092348dfa2, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.56, ms:edgeOptions: {debuggerAddress: localhost:54528}, msedge: {msedgedriverVersion: 107.0.1418.56 (5b47a5c50066..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54528/devtoo..., se:cdpVersion: 107.0.1418.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 49734eb8fac32ea7758d3b092348dfa2 
+2022-11-26 13:23:12,135 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3967512b38ac89da04ea6aadf0bdf60, clickElement {id=9c58ca90-7108-4e32-9661-2c43104ba439}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e3967512b38ac89da04ea6aadf0bdf60)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: e3967512b38ac89da04ea6aadf0bdf60 
+2022-11-26 13:23:14,189 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3967512b38ac89da04ea6aadf0bdf60, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3967512b38ac89da04ea6aadf0bdf60 
+2022-11-26 13:23:14,256 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 13:23:14,273 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3967512b38ac89da04ea6aadf0bdf60, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54699/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3967512b38ac89da04ea6aadf0bdf60 
+2022-11-26 15:31:04,420 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39e9bbec9c47d3f89431f685f18340ae, clickElement {id=182b62ef-d563-487b-82e0-0e0bc241c508}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56974/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (39e9bbec9c47d3f89431f685f18340ae)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 39e9bbec9c47d3f89431f685f18340ae 
+2022-11-26 15:31:06,498 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39e9bbec9c47d3f89431f685f18340ae, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56974/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 39e9bbec9c47d3f89431f685f18340ae 
+2022-11-26 15:31:06,573 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 15:31:06,598 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39e9bbec9c47d3f89431f685f18340ae, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56974/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 39e9bbec9c47d3f89431f685f18340ae 
+2022-11-26 16:10:10,026 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57fff8876d19848e911e8ddcc0756d23, clickElement {id=20ef2e64-ef17-41f7-8086-af2cc7dbc06a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57209/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (57fff8876d19848e911e8ddcc0756d23)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 57fff8876d19848e911e8ddcc0756d23 
+2022-11-26 16:10:12,081 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57fff8876d19848e911e8ddcc0756d23, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57209/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57fff8876d19848e911e8ddcc0756d23 
+2022-11-26 16:10:12,156 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 16:10:12,177 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57fff8876d19848e911e8ddcc0756d23, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57209}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57209/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57fff8876d19848e911e8ddcc0756d23 
+2022-11-26 16:17:04,418 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1d6df7aba946d80876f130c1fecaacd, clickElement {id=7317c339-d3bf-4693-989c-0e09462a9c8e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e1d6df7aba946d80876f130c1fecaacd)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: e1d6df7aba946d80876f130c1fecaacd 
+2022-11-26 16:17:06,486 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1d6df7aba946d80876f130c1fecaacd, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e1d6df7aba946d80876f130c1fecaacd 
+2022-11-26 16:17:06,559 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 16:17:06,590 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e1d6df7aba946d80876f130c1fecaacd, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e1d6df7aba946d80876f130c1fecaacd 
+2022-11-26 16:23:51,171 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=107.0.5304.121)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e38c13c8484b19f4f4e16cce71ae4c60, clickElement {id=aa4f11c2-dbf4-4202-92fa-27868654b0ea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57757/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e38c13c8484b19f4f4e16cce71ae4c60)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: e38c13c8484b19f4f4e16cce71ae4c60 
+2022-11-26 16:23:53,244 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e38c13c8484b19f4f4e16cce71ae4c60, findElement {using=xpath, value=/html/body/div[2]/div/div[2]/div[2]/div[5]/div/div[2]/div[97]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57757/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e38c13c8484b19f4f4e16cce71ae4c60 
+2022-11-26 16:23:53,322 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-11-26 16:23:53,347 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=107.0.5304.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e38c13c8484b19f4f4e16cce71ae4c60, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57757/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e38c13c8484b19f4f4e16cce71ae4c60 
+2022-12-03 14:23:58,080 INFO  [Log] loginAndSearch() is Successfull! 
+2022-12-03 14:24:25,790 INFO  [Log] selectClothe() is Successfull! 
+2022-12-03 14:24:25,860 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 14:24:25,885 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7309d4b57a6c74f14a936c4bc63c987, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50163/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7309d4b57a6c74f14a936c4bc63c987 
+2022-12-03 14:26:18,866 INFO  [Log] loginAndSearch() is Successfull! 
+2022-12-03 14:26:33,359 INFO  [Log] selectClothe() is Successfull! 
+2022-12-03 14:26:44,102 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-12-03 14:26:49,350 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"a.inverted-modal-button.sc-delete.ins-init-condition-tracking"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51a465c1b9835d25ac3ab178d84424bc, findElement {using=css selector, value=a.inverted-modal-button.sc-delete.ins-init-condition-tracking}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50416/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 51a465c1b9835d25ac3ab178d84424bc 
+2022-12-03 14:38:24,909 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=108.0.5359.94)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ecd3920702c7530929f3b05425c154a, clickElement {id=81e7535d-d1aa-4d7e-934b-c2e3b49ed12f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0ecd3920702c7530929f3b05425c154a)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 0ecd3920702c7530929f3b05425c154a 
+2022-12-03 14:38:26,991 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ecd3920702c7530929f3b05425c154a, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ecd3920702c7530929f3b05425c154a 
+2022-12-03 14:38:27,065 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 14:38:27,089 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ecd3920702c7530929f3b05425c154a, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ecd3920702c7530929f3b05425c154a 
+2022-12-03 14:39:01,737 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (946, 48). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: chrome=108.0.5359.94)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a93a27c155093d5e5944d4bb2fbd8c72, clickElement {id=04de6fd9-ad17-412d-b4d4-7662bf1965d7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50896/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a93a27c155093d5e5944d4bb2fbd8c72)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: a93a27c155093d5e5944d4bb2fbd8c72 
+2022-12-03 14:39:03,792 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a93a27c155093d5e5944d4bb2fbd8c72, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50896/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a93a27c155093d5e5944d4bb2fbd8c72 
+2022-12-03 14:39:03,866 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 14:39:03,907 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: chrome=108.0.5359.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a93a27c155093d5e5944d4bb2fbd8c72, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ocak\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50896/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a93a27c155093d5e5944d4bb2fbd8c72 
+2022-12-03 14:41:06,290 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [83ca99dff6152b16397ff47bf7fd0701, clickElement {id=1dd48d00-8e91-4da2-8e42-ba0ce73fe65b}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:51136}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51136/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (83ca99dff6152b16397ff47bf7fd0701)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 83ca99dff6152b16397ff47bf7fd0701 
+2022-12-03 14:41:08,344 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [83ca99dff6152b16397ff47bf7fd0701, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:51136}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51136/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ca99dff6152b16397ff47bf7fd0701 
+2022-12-03 14:41:08,407 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 14:41:08,429 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [83ca99dff6152b16397ff47bf7fd0701, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:51136}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51136/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83ca99dff6152b16397ff47bf7fd0701 
+2022-12-03 14:41:51,124 INFO  [Log] loginAndSearch() is Successfull! 
+2022-12-03 14:42:03,285 INFO  [Log] selectClothe() is Successfull! 
+2022-12-03 14:42:14,102 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-12-03 14:42:19,365 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"a.inverted-modal-button.sc-delete.ins-init-condition-tracking"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [42091de42f59ec75f4700b52ea6e6371, findElement {using=css selector, value=a.inverted-modal-button.sc-delete.ins-init-condition-tracking}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:51270}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51270/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 42091de42f59ec75f4700b52ea6e6371 
+2022-12-03 16:38:05,117 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6acb87b1465fb059af930d50e6d4366e, clickElement {id=4833da5c-d8e7-443b-b3cf-d7c15dfd5c12}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53106}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53106/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (6acb87b1465fb059af930d50e6d4366e)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 6acb87b1465fb059af930d50e6d4366e 
+2022-12-03 16:38:07,169 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6acb87b1465fb059af930d50e6d4366e, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53106}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53106/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6acb87b1465fb059af930d50e6d4366e 
+2022-12-03 16:38:07,234 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 16:38:07,253 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6acb87b1465fb059af930d50e6d4366e, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53106}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53106/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6acb87b1465fb059af930d50e6d4366e 
+2022-12-03 16:39:17,801 INFO  [Log] loginAndSearch() is Successfull! 
+2022-12-03 16:39:30,030 INFO  [Log] selectClothe() is Successfull! 
+2022-12-03 16:39:41,169 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-12-03 16:39:49,648 INFO  [Log] goToBasket() is Successfull! 
+2022-12-03 16:40:22,015 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7cc08febdedeaae1740a16356e730aa7, clickElement {id=9118df0c-ea50-4877-a9b2-da898b3ff221}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53507}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53507/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (7cc08febdedeaae1740a16356e730aa7)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 7cc08febdedeaae1740a16356e730aa7 
+2022-12-03 16:40:24,066 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7cc08febdedeaae1740a16356e730aa7, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53507}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53507/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cc08febdedeaae1740a16356e730aa7 
+2022-12-03 16:40:24,136 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 16:40:24,154 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7cc08febdedeaae1740a16356e730aa7, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53507}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53507/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cc08febdedeaae1740a16356e730aa7 
+2022-12-03 16:40:54,794 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcc7cbf40a387b87848ba3cbdd9d2758, clickElement {id=5e0101ef-eac2-46f9-acf6-1387f90cf8b6}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53646}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53646/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (fcc7cbf40a387b87848ba3cbdd9d2758)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: fcc7cbf40a387b87848ba3cbdd9d2758 
+2022-12-03 16:40:56,841 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcc7cbf40a387b87848ba3cbdd9d2758, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53646}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53646/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fcc7cbf40a387b87848ba3cbdd9d2758 
+2022-12-03 16:40:56,905 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 16:40:56,928 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fcc7cbf40a387b87848ba3cbdd9d2758, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53646}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53646/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fcc7cbf40a387b87848ba3cbdd9d2758 
+2022-12-03 16:41:27,684 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d856686ba250b2101eae507f4ff7f71e, clickElement {id=2a7e1c56-d399-4a26-9fe2-695eaaa602e6}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53784}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53784/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (d856686ba250b2101eae507f4ff7f71e)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: d856686ba250b2101eae507f4ff7f71e 
+2022-12-03 16:41:29,739 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d856686ba250b2101eae507f4ff7f71e, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53784}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53784/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d856686ba250b2101eae507f4ff7f71e 
+2022-12-03 16:41:29,808 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 16:41:29,826 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d856686ba250b2101eae507f4ff7f71e, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53784}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53784/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d856686ba250b2101eae507f4ff7f71e 
+2022-12-03 16:42:49,955 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b278668eef085a13a453bde243082861, clickElement {id=5dfc790f-8c5a-498c-ac2f-74d0fe5e9b3f}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53965}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53965/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (b278668eef085a13a453bde243082861)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: b278668eef085a13a453bde243082861 
+2022-12-03 16:42:52,023 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b278668eef085a13a453bde243082861, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53965}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53965/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b278668eef085a13a453bde243082861 
+2022-12-03 16:42:52,091 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 16:42:52,109 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b278668eef085a13a453bde243082861, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:53965}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53965/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b278668eef085a13a453bde243082861 
+2022-12-03 17:01:08,112 ERROR [Log] loginAndSearch() is Fail! --- element click intercepted: Element <div class="search-form__input-field search-form__input-field--second-wrap">...</div> is not clickable at point (898, 33). Other element would receive the click: <div class="login-form__background-opacity"></div>
+  (Session info: MicrosoftEdge=107.0.1418.62)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2f785169a2e92a22e7dc4af055522080, clickElement {id=6c8e197c-f783-4de7-bfe8-5178655df5ac}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:54174}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (2f785169a2e92a22e7dc4af055522080)] -> css selector: div.search-form__input-field.search-form__input-field--second-wrap]
+Session ID: 2f785169a2e92a22e7dc4af055522080 
+2022-12-03 17:01:10,160 ERROR [Log] selectClothe() is Fail! --- no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='paginator']/button[@class='paginator__button']"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2f785169a2e92a22e7dc4af055522080, findElement {using=xpath, value=//div[@class='paginator']/button[@class='paginator__button']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:54174}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f785169a2e92a22e7dc4af055522080 
+2022-12-03 17:01:10,223 ERROR [Log] addClotheToBasket() is Fail! --- bound must be positive 
+2022-12-03 17:01:10,244 ERROR [Log] goToBasket() is Fail! --- no such element: Unable to locate element: {"method":"css selector","selector":"span.rd-cart-item-price.mb-15"}
+  (Session info: MicrosoftEdge=107.0.1418.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2f785169a2e92a22e7dc4af055522080, findElement {using=css selector, value=span.rd-cart-item-price.mb-15}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 107.0.1418.62, ms:edgeOptions: {debuggerAddress: localhost:54174}, msedge: {msedgedriverVersion: 107.0.1418.62 (cd9348711d31..., userDataDir: C:\Users\ocak\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 107.0.1418.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f785169a2e92a22e7dc4af055522080 
+2022-12-03 17:02:23,845 INFO  [Log] loginAndSearch() is Successfull! 
+2022-12-03 17:02:38,580 INFO  [Log] selectClothe() is Successfull! 
+2022-12-03 17:02:49,458 INFO  [Log] addClotheToBasket() is Successfull! 
+2022-12-03 17:02:58,511 INFO  [Log] goToBasket() is Successfull! 
