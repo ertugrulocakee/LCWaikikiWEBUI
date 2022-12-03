@@ -4,6 +4,9 @@ Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bi
 
 - https://www.lcwaikiki.com/tr-TR/TR sitesi açılır.
 - Ana sayfanın açıldığı kontrol edilir.
+- Giriş ekranına gidilir.
+- E-posta ve şifre girilerek uygulamaya giriş yapılır.
+- Ana sayfanın açıldığı kontrol edilir.
 - Arama kutucuğuna “pantolon” kelimesi girilir.
 - Sayfanın sonuna scroll edilir.
 - “Daha fazla ürün gör “ butonuna tıklanır.
