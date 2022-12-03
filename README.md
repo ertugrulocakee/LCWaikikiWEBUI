@@ -18,5 +18,5 @@ Java Maven Projesidir. Selenium, JUnit ve Log4J kütüphaneleri kullanılarak bi
 
  Çalışmanın Videosu 
  
-https://user-images.githubusercontent.com/83928393/197786502-2f11780a-ef2a-48cd-a513-c0b2b76321c1.mp4
+https://user-images.githubusercontent.com/83928393/205451425-b8d25191-c764-4fb8-ae04-015bd0457416.mp4
 
